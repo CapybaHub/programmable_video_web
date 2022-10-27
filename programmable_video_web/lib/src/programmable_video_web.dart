@@ -80,7 +80,7 @@ class ProgrammableVideoPlugin extends ProgrammableVideoPlatform {
 
   //#region Functions
   @override
-  Widget createLocalVideoTrackWidget({bool mirror = true, Key? key}) {
+  Widget createLocalVideoTrackWidget({bool mirror = true, Key? key, String name = ''}) {
     final room = _room;
 
     if (room != null) {
