@@ -89,10 +89,10 @@ packages:
   twilio_programmable_video_platform_interface:
     dependency: "direct main"
     description:
-      path: programmable_video_platform_interface
+      path: "."
       ref: HEAD
-      resolved-ref: ac425dc7cdc57e5d7680d686e120a4f7dd9a4f03
-      url: "https://github.com/CapybaHub/twilio_programmable_video.git"
+      resolved-ref: "6ebd71a12eca2021ef39a8b51612b4497a5ebc0a"
+      url: "https://github.com/CapybaHub/programmable_video_platform_interface.git"
     source: git
     version: "1.0.0"
   vector_math:
